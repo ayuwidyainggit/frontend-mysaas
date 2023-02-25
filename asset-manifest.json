@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/frontend-mysaas/static/css/main.14656453.css",
+    "main.js": "/frontend-mysaas/static/js/main.b7220d13.js",
+    "static/js/787.5ef1e16f.chunk.js": "/frontend-mysaas/static/js/787.5ef1e16f.chunk.js",
+    "static/media/Background.png": "/frontend-mysaas/static/media/Background.9befcf226336a42d12d2.png",
+    "static/media/dashboard.png": "/frontend-mysaas/static/media/dashboard.d81c14216cd70204dd99.png",
+    "static/media/logo.svg": "/frontend-mysaas/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/frontend-mysaas/index.html",
+    "main.14656453.css.map": "/frontend-mysaas/static/css/main.14656453.css.map",
+    "main.b7220d13.js.map": "/frontend-mysaas/static/js/main.b7220d13.js.map",
+    "787.5ef1e16f.chunk.js.map": "/frontend-mysaas/static/js/787.5ef1e16f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14656453.css",
+    "static/js/main.b7220d13.js"
+  ]
+}
