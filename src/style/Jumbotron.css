@@ -1,0 +1,116 @@
+.container-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin-top: -5.5rem;
+}
+.container {
+  background-image: url('../assets/homepage/Background.png');
+  background-size: cover;
+  width: 936px;
+  height: 500px;
+  display: flex;
+  position: relative;
+}
+
+.content-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.wrapper {
+  margin-top: -18rem;
+  width: 950px;
+  height: 400px;
+  display: flex;
+  position: absolute;
+}
+
+.content-left {
+  width: 350px;
+}
+
+.text1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: start;
+}
+
+.text2 {
+  margin-top: 0.5rem;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: start;
+  color: #797979;
+}
+
+.footer {
+  margin-top: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.video {
+  width: 45px;
+  height: 45px;
+  margin-left: -3.5rem;
+  margin-top: 0.3rem;
+  z-index: 1;
+}
+.content-right {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  margin-left: 3rem;
+}
+
+.dashboard {
+  margin-top: -4rem;
+  width: 769.9px;
+  height: 524px;
+}
+
+@media screen and (max-width: 576px) {
+  .container-wrapper {
+    flex-direction: column;
+    position: relative;
+    margin-top: -5.5rem;
+  }
+
+  .wrapper {
+    margin-top: -25rem;
+    width: 950px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content-left {
+    width: 950px;
+  }
+  .text1,
+  .text2 {
+    text-align: center;
+  }
+  .content-right {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    margin-left: 0rem;
+  }
+  .footer {
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+
+  .dashboard {
+    margin-top: 0rem;
+    width: 500px;
+    height: 280px;
+  }
+}
