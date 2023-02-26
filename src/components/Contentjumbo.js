@@ -17,7 +17,7 @@ const Contentjumbo = () => {
           </div>
           <div className="footer">
             <Button text="Get Started" variant="info" />
-            <Button text="Watch Video" variant="info2" />
+            <Button text="Watch Video" variant="info2" className="btn-video" />
             <img src={video} alt="" className="video" />
           </div>
         </div>

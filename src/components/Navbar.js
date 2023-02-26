@@ -44,9 +44,9 @@ const Navbar = () => {
           <button className="button" onClick={() => setIsMyUl2(!isMyUl2)}>
             OK
           </button>
-          <span></span>
-          <span></span>
-          <span></span>
+          <span className={isMyUl2 ? 'span1' : 'span2'}></span>
+          <span className={isMyUl2 ? 'span1' : 'span2'}></span>
+          <span className={isMyUl2 ? 'span1' : 'span2'}></span>
         </div>
       </div>
     </div>

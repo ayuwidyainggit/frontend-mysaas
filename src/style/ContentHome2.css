@@ -1,0 +1,133 @@
+.content-home-2 {
+  position: relative;
+}
+
+.wrapper-work-smarter {
+  width: 80%;
+  position: relative;
+  justify-content: center;
+  left: 10%;
+}
+
+.wrapper-menu {
+  width: 80%;
+  position: relative;
+  justify-content: center;
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-create-acc {
+  width: 80%;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  left: 10%;
+}
+.wrapper-crete-acc-info {
+  width: 50%;
+  position: relative;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.wrapper-create-acc-img {
+  width: 50%;
+}
+
+.acc-info-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  left: 10%;
+}
+
+.acc-info-bottom {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  text-align: start;
+  padding-top: 1rem;
+}
+
+.img-content1 {
+  width: 400px;
+  padding-top: 2rem;
+}
+.img-logo {
+  width: 100px;
+}
+
+.info-text1 {
+  margin-left: 1rem;
+  margin-right: 4rem;
+}
+.info-text {
+  text-align: start;
+  font-weight: 500;
+  line-height: 27px;
+  font-size: 27px;
+}
+
+.info-btn-text {
+  margin-bottom: 1rem;
+  color: #797979;
+}
+
+@media screen and (max-width: 576px) {
+  .content-home-2 {
+    margin-top: 2rem;
+  }
+  .wrapper-menu {
+    width: 80%;
+    position: relative;
+    flex-direction: column;
+    left: 10%;
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .wrapper-create-acc {
+    width: 80%;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    left: 10%;
+  }
+  .wrapper-crete-acc-info {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    padding-top: 2rem;
+    height: 500px;
+  }
+  .info-text1 {
+    margin-left: 1rem;
+    margin-right: 0;
+  }
+  .info-text {
+    font-weight: 450;
+    line-height: 25px;
+    font-size: 22px;
+  }
+  .img-logo {
+    width: 200px;
+  }
+  .acc-info-bottom {
+    height: 350px;
+    text-align: center;
+    padding-top: 10rem;
+  }
+  .wrapper-create-acc-img {
+    width: 100%;
+    margin-top: -25rem;
+    height: 200px;
+  }
+
+  .img-content1 {
+    width: 220px;
+  }
+}
