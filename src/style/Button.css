@@ -100,12 +100,74 @@
   color: white;
 }
 
+.btn-dark-button:hover {
+  background-color: #f4f4f4;
+  color: black;
+}
+
 .img-logo {
   width: 70px;
+}
+.btn-purple-button {
+  width: 120px;
+  height: 50px;
+  border-radius: 39px;
+  background-color: #6850ff;
+  border: none;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+}
+.btn-purple-button:hover {
+  background-color: #f4f4f4;
+  color: #5236ff;
+}
+
+.btn-purple-button2 {
+  width: 120px;
+  height: 50px;
+  border-radius: 39px;
+  background-color: white;
+  border: none;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: #5236ff;
+}
+
+.btn-purple-button2:hover {
+  background-color: #5236ff;
+  color: white;
+}
+
+.btn-warning-price {
+  width: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 40px;
+  border-radius: 39px;
+  background-color: #ffeecc;
+  border: none;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: #c68a15;
 }
 
 @media screen and (max-width: 576px) {
   .btn-menu {
     left: 4%;
+  }
+
+  .btn-purple-button2 {
+    height: 35px;
+    width: 100px;
   }
 }

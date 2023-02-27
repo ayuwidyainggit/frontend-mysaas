@@ -1,0 +1,163 @@
+.wrapper-home-5 {
+  display: flex;
+  position: relative;
+  margin-top: 5rem;
+}
+.wrapper-background-home5 {
+  background-image: url('../assets/homepage/Background2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  display: flex;
+  position: relative;
+  margin-top: 5rem;
+  left: 10%;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.wrapper-home-5-left {
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.wrapper-left {
+  position: relative;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
+  left: 10%;
+  top: 20%;
+  align-items: center;
+  text-align: left;
+}
+
+.wrapper-content-left {
+  position: relative;
+  margin-top: 1 rem;
+  width: 75%;
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-content-left-bottom {
+  position: relative;
+  margin-top: 1.5rem;
+  width: 80%;
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-home5-1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: white;
+}
+
+.text-home5-2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+}
+
+.input-home5 {
+  background-color: #735dfd;
+  width: 220px;
+  height: 50px;
+  padding-left: 1rem;
+  border-radius: 39px;
+  color: antiquewhite;
+}
+
+.input-home5::-webkit-input-placeholder {
+  color: white;
+}
+.wrapper-home-5-right {
+  position: relative;
+  padding-top: 2%;
+}
+
+.wrapper-home-5-right {
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+/* end kontent 2 */
+@media screen and (max-width: 576px) {
+  .wrapper-background-home5 {
+    background-image: url('../assets/homepage/Background2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    margin-top: 0;
+    left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .wrapper-home-5-left {
+    width: 100%;
+  }
+
+  .wrapper-left {
+    width: 90%;
+    left: 5%;
+    top: 0;
+    text-align: center;
+  }
+
+  .wrapper-content-left {
+    margin-top: 1rem;
+    width: 90%;
+    left: 5%;
+  }
+
+  .text-home5-1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+  }
+
+  .text-home5-2 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+  }
+  .input-home5 {
+    height: 35px;
+    width: 200px;
+  }
+
+  .wrapper-content-left-bottom {
+    position: relative;
+    margin-top: 0.5rem;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapper-content-left-bottom {
+    width: 90%;
+    left: 5%;
+  }
+  .wrapper-home-5-right {
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 100%;
+    left: 15%;
+    margin-top: 5rem;
+  }
+}
