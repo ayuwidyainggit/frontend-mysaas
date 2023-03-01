@@ -7,6 +7,7 @@ import ContentHome5 from '../components/ContentHome5';
 import ContentHome6 from '../components/ContentHome6';
 import Contentjumbo from '../components/Contentjumbo';
 import Features from '../components/Features';
+import Footer from '../components/Footer';
 import Jumbotron from '../components/Jumbotron';
 import Navbar from '../components/Navbar';
 
@@ -23,6 +24,7 @@ const Home = () => {
       <ContentHome4 />
       <ContentHome5 />
       <ContentHome6 />
+      <Footer />
     </div>
   );
 };

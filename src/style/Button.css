@@ -161,13 +161,33 @@
   color: #c68a15;
 }
 
+.btn-play-store,
+.btn-app-store {
+  width: 120px;
+  height: 45px;
+  border-radius: 39px;
+  background-color: #e0dddd;
+  border: none;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+}
+.btn-app-store:hover,
+.btn-play-store:hover {
+  background-color: black;
+  color: white;
+}
+
 @media screen and (max-width: 576px) {
   .btn-menu {
     left: 4%;
   }
 
   .btn-purple-button2 {
-    height: 35px;
+    height: 30px;
     width: 100px;
   }
 }

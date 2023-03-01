@@ -13,19 +13,19 @@ const Features = () => {
         <h1 className="text-title">Powerful features to boost your productivity</h1>
       </div>
       <div className="wrapper-bottom">
-        <div className="content-footer">
+        <div className="content-footer-feature">
           <img src={icon1} alt="" className="img-content" />
           <p>Secured Platform</p>
           <p>Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.</p>
           <a href="">Learn More</a>
         </div>
-        <div className="content-footer">
+        <div className="content-footer-feature">
           <img src={icon2} alt="" className="img-content" />
           <p>Secured Platform</p>
           <p>Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.</p>
           <a href="">Learn More</a>
         </div>
-        <div className="content-footer">
+        <div className="content-footer-feature">
           <img src={icon3} alt="" className="img-content" />
           <p>Secured Platform</p>
           <p>Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.</p>

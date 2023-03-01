@@ -110,7 +110,6 @@
 
   .wrapper-left {
     width: 90%;
-    left: 5%;
     top: 0;
     text-align: center;
   }
@@ -118,14 +117,16 @@
   .wrapper-content-left {
     margin-top: 1rem;
     width: 90%;
-    left: 5%;
+    left: 0;
+    text-align: left;
   }
 
   .text-home5-1 {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
     color: white;
+    text-align: center;
   }
 
   .text-home5-2 {
@@ -135,7 +136,7 @@
     color: white;
   }
   .input-home5 {
-    height: 35px;
+    height: 30px;
     width: 200px;
   }
 
@@ -150,7 +151,7 @@
 
   .wrapper-content-left-bottom {
     width: 90%;
-    left: 5%;
+    left: 0;
   }
   .wrapper-home-5-right {
     display: flex;

@@ -1,0 +1,113 @@
+.wrapper-footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 10rem;
+}
+
+.wrapper-content-footer {
+  width: 80%;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+
+.content-footer {
+  text-align: left;
+  width: 20%;
+}
+.content-footer1 {
+  text-align: left;
+  width: 25%;
+}
+.content-footer3 {
+  text-align: left;
+  width: 35%;
+}
+
+.saasup-1 {
+  text-align: left;
+  display: flex;
+  position: relative;
+}
+
+.wrapper-content-footer-button {
+  display: flex;
+  position: relative;
+}
+
+.text1-footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.imgSaasup {
+  width: 30px;
+}
+
+.text2-footer {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: 797979;
+  cursor: pointer;
+  color: #797979;
+}
+.text2-footer:hover {
+  color: #5236ff;
+}
+
+.download {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  color: 797979;
+  cursor: pointer;
+  color: #5236ff;
+}
+.download:hover {
+  color: #797979;
+}
+
+.text3-footer {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: 797979;
+  cursor: pointer;
+  color: #797979;
+}
+
+.mail,
+.phone {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper-footer {
+    flex-direction: column;
+    position: relative;
+  }
+  .wrapper-content-footer {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    left: 10%;
+  }
+  .content-footer,
+  .content-footer1,
+  .content-footer3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .saasup-1 {
+    justify-content: center;
+  }
+
+  .wrapper-content-footer-button {
+    justify-content: center;
+  }
+}
