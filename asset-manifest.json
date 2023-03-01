@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-mysaas/static/css/main.1c06b8e1.css",
-    "main.js": "/frontend-mysaas/static/js/main.3e5a379c.js",
+    "main.css": "/frontend-mysaas/static/css/main.8802b9e1.css",
+    "main.js": "/frontend-mysaas/static/js/main.f6f3be8d.js",
     "static/js/787.5ef1e16f.chunk.js": "/frontend-mysaas/static/js/787.5ef1e16f.chunk.js",
     "static/media/profile.jpg": "/frontend-mysaas/static/media/profile.d949842c83163104fe07.jpg",
     "static/media/Background2.png": "/frontend-mysaas/static/media/Background2.dde8a69cf08f4e3ced49.png",
@@ -15,12 +15,12 @@
     "static/media/Icon3.png": "/frontend-mysaas/static/media/Icon3.e59bad4068cc751c6af2.png",
     "static/media/Image-content.png": "/frontend-mysaas/static/media/Image-content.c291b4756ab091343e95.png",
     "index.html": "/frontend-mysaas/index.html",
-    "main.1c06b8e1.css.map": "/frontend-mysaas/static/css/main.1c06b8e1.css.map",
-    "main.3e5a379c.js.map": "/frontend-mysaas/static/js/main.3e5a379c.js.map",
+    "main.8802b9e1.css.map": "/frontend-mysaas/static/css/main.8802b9e1.css.map",
+    "main.f6f3be8d.js.map": "/frontend-mysaas/static/js/main.f6f3be8d.js.map",
     "787.5ef1e16f.chunk.js.map": "/frontend-mysaas/static/js/787.5ef1e16f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c06b8e1.css",
-    "static/js/main.3e5a379c.js"
+    "static/css/main.8802b9e1.css",
+    "static/js/main.f6f3be8d.js"
   ]
 }
