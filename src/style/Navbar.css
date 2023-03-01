@@ -90,7 +90,7 @@ a:hover {
     background-color: white;
   }
   .myUl2 {
-    /* padding-top: 2rem;
+    padding-top: 2rem;
     width: 80%;
     height: 100vh;
     padding-left: 0;
@@ -103,8 +103,8 @@ a:hover {
     border-radius: 0;
     justify-content: space-evenly;
     z-index: -1;
-    transform: translateX(100%); */
-    display: none;
+    transform: translateX(100%);
+    /* display: none; */
     transition: all / 1s;
   }
 
