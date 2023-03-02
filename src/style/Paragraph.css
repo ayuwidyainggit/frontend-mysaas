@@ -1,0 +1,58 @@
+.wrapper-paragraph {
+  margin-bottom: 2rem;
+}
+.text-paragraph1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: black;
+}
+
+.text-paragraph2 {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #797979;
+}
+
+.text-paragraph3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: black;
+}
+
+.text-paragraph4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+}
+.text-white {
+  background-color: blueviolet;
+}
+.text-paragraph5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  color: white;
+}
+
+.text-paragraph6 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 40px;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .text-paragraph1 {
+    font-size: 35px;
+  }
+  .text-paragraph3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: black;
+  }
+}

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import logo from '../assets/homepage/iconNavbar.png';
 import '../style/Navbar.css';
 import Button from './Button';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMyUl2, setIsMyUl2] = useState(true);
@@ -15,36 +14,24 @@ const Navbar = () => {
           <h1 className="nav-title">SaaSup</h1>
         </ul>
         <ul className={isMyUl2 ? 'myUl2' : 'slide'}>
-          <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/frontend-mysaas">
-              Home
-            </Link>
-          </li>
-          <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/about">
-              About
-            </Link>
-          </li>
-          <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/feature">
-              Features
-            </Link>
-          </li>
-          <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/integrations">
-              Integrations
-            </Link>
-          </li>
-          <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/about">
-              Blog
-            </Link>
-          </li>{' '}
-          <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/about">
-              Cart
-            </Link>
-          </li>
+          <a href="" className="text">
+            Home
+          </a>
+          <a href="" className="text">
+            About
+          </a>
+          <a href="" className="text">
+            Features
+          </a>
+          <a href="" className="text">
+            Pages
+          </a>
+          <a href="" className="text">
+            Blog
+          </a>
+          <a href="" className="text">
+            Cart (0)
+          </a>
           <a href="" className="text sign">
             Sign In
           </a>

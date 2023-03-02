@@ -1,0 +1,55 @@
+.wrapper-integrations {
+  margin-top: 3rem;
+}
+
+.content-integrations {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.text-integrations {
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+.content-integrations2 {
+  width: 80%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 20px;
+  justify-content: center;
+  left: 10%;
+  margin-top: 3rem;
+}
+.sosmed {
+  width: 100%;
+}
+
+.wrapper-sosmed {
+  display: flex;
+  position: relative;
+}
+
+.wrapper-img-sosmed {
+  margin-right: 0.5rem;
+}
+
+.wrapper-text-sosmed {
+  text-align: left;
+}
+.img-sosmed {
+  width: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper-integrations {
+    margin-top: 6rem;
+  }
+
+  .content-integrations2 {
+    grid-template-columns: repeat(2, 3fr);
+  }
+}

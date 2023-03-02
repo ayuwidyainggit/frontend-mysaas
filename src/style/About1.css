@@ -1,0 +1,94 @@
+.wrapper-about1 {
+  margin-top: 5rem;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.wrapper-content-about1 {
+  position: relative;
+  width: 80%;
+  left: 10%;
+}
+
+.wrapper-content-about1-1 {
+  position: relative;
+  display: flex;
+  width: 80%;
+  left: 10%;
+  justify-content: space-between;
+}
+
+.wrapper-content-about1-2 {
+  position: relative;
+  display: flex;
+  width: 80%;
+  left: 10%;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.about-com {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  margin-bottom: 1rem;
+}
+
+.what-we-do {
+  position: relative;
+  width: 30%;
+  text-align: left;
+}
+
+.content-what-we-do {
+  position: relative;
+  width: 70%;
+  text-align: left;
+}
+
+.about1-img {
+  width: 400px;
+}
+
+.followers {
+  position: relative;
+  width: 20%;
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper-content-about1 {
+    width: 90%;
+    left: 5%;
+  }
+
+  .wrapper-content-about1-1 {
+    flex-direction: column;
+    width: 90%;
+    left: 5%;
+  }
+  .wrapper-content-about1 {
+    width: 90%;
+    left: 5%;
+  }
+  .about-com {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    margin-bottom: 1rem;
+  }
+  .what-we-do,
+  .content-what-we-do {
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper-content-about1-2 {
+    position: relative;
+    display: flex;
+    width: 90%;
+    left: 5%;
+  }
+}
