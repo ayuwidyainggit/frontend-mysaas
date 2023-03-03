@@ -13,11 +13,11 @@ const Routes = () => {
     <Router>
       <Switch>
         <Route path={'/frontend-mysaas'} exact component={Home} />
-        <Route path={'/paragraph'} exact component={ViewParagraph} />
-        <Route path={'/about'} exact component={About} />
-        <Route path={'/feature'} exact component={Feature} />
-        <Route path={'/integrations'} exact component={IntegrationView} />
-        <Route path={'/contactUs'} exact component={ContactUs} />
+        <Route path={'/frontend-mysaas/paragraph'} exact component={ViewParagraph} />
+        <Route path={'/frontend-mysaas/about'} exact component={About} />
+        <Route path={'/frontend-mysaas/feature'} exact component={Feature} />
+        <Route path={'/frontend-mysaas/integrations'} exact component={IntegrationView} />
+        <Route path={'/frontend-mysaas/contactUs'} exact component={ContactUs} />
         <Route component={NotFound} />
       </Switch>
     </Router>

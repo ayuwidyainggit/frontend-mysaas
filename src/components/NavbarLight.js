@@ -21,22 +21,22 @@ const NavbarLight = () => {
             </Link>
           </li>
           <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/about">
+            <Link className="text" to="/frontend-mysaas/about">
               About
             </Link>
           </li>
           <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/feature">
+            <Link className="text" to="/frontend-mysaas/feature">
               Features
             </Link>
           </li>
           <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/integrations">
+            <Link className="text" to="/frontend-mysaas/integrations">
               Integrations
             </Link>
           </li>
           <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/contactUs">
+            <Link className="text" to="/frontend-mysaas/contactUs">
               Contact Us
             </Link>
           </li>
