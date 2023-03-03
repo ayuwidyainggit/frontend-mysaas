@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/frontend-mysaas/static/css/main.eb3b32d6.css",
-    "main.js": "/frontend-mysaas/static/js/main.5e28fb6b.js",
+    "main.css": "/frontend-mysaas/static/css/main.dd78e12e.css",
+    "main.js": "/frontend-mysaas/static/js/main.1e356db4.js",
     "static/js/787.5ef1e16f.chunk.js": "/frontend-mysaas/static/js/787.5ef1e16f.chunk.js",
     "static/media/profile.jpg": "/frontend-mysaas/static/media/profile.d949842c83163104fe07.jpg",
     "static/media/about1.png": "/frontend-mysaas/static/media/about1.5ced29eb614af53d947f.png",
+    "static/media/Banner.png": "/frontend-mysaas/static/media/Banner.02ba25be27d8faeed217.png",
     "static/media/Background2.png": "/frontend-mysaas/static/media/Background2.dde8a69cf08f4e3ced49.png",
     "static/media/Background.png": "/frontend-mysaas/static/media/Background.9befcf226336a42d12d2.png",
     "static/media/image-content5.png": "/frontend-mysaas/static/media/image-content5.1acd80ea84056371f8cc.png",
@@ -16,12 +17,12 @@
     "static/media/Icon3.png": "/frontend-mysaas/static/media/Icon3.e59bad4068cc751c6af2.png",
     "static/media/Image-content.png": "/frontend-mysaas/static/media/Image-content.c291b4756ab091343e95.png",
     "index.html": "/frontend-mysaas/index.html",
-    "main.eb3b32d6.css.map": "/frontend-mysaas/static/css/main.eb3b32d6.css.map",
-    "main.5e28fb6b.js.map": "/frontend-mysaas/static/js/main.5e28fb6b.js.map",
+    "main.dd78e12e.css.map": "/frontend-mysaas/static/css/main.dd78e12e.css.map",
+    "main.1e356db4.js.map": "/frontend-mysaas/static/js/main.1e356db4.js.map",
     "787.5ef1e16f.chunk.js.map": "/frontend-mysaas/static/js/787.5ef1e16f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb3b32d6.css",
-    "static/js/main.5e28fb6b.js"
+    "static/css/main.dd78e12e.css",
+    "static/js/main.1e356db4.js"
   ]
 }
