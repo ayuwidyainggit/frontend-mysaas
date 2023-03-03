@@ -96,13 +96,14 @@ a:hover {
     position: fixed;
     grid-template-columns: auto;
     justify-content: space-between;
-    width: 100vh;
+    width: 100%;
     height: 55px;
     margin-top: 0rem;
     align-items: center;
     background-color: white;
   }
-  .myUl2 {
+  .myUl2,
+  .myUl4 {
     padding-top: 2rem;
     width: 80%;
     height: 100vh;

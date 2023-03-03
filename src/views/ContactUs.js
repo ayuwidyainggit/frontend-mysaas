@@ -1,13 +1,13 @@
 import React from 'react';
-import Integrations from '../components/Integrations';
+import Contact from '../components/Contact';
 import MainLayoutsLight from '../layouts/MainLayoutsLight';
 
-const IntegrationView = () => {
+const ContactUs = () => {
   return (
     <MainLayoutsLight>
-      <Integrations />
+      <Contact />
     </MainLayoutsLight>
   );
 };
 
-export default IntegrationView;
+export default ContactUs;

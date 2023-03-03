@@ -1,12 +1,15 @@
 import React from 'react';
-import MainLayouts from '../layouts/MainLayouts';
 import Features from '../components/Features';
+import MainLayoutsLight from '../layouts/MainLayoutsLight';
+import '../style/Features.css';
 
 const Feature = () => {
   return (
-    <MainLayouts>
-      <Features />
-    </MainLayouts>
+    <MainLayoutsLight>
+      <div className="container-features">
+        <Features />
+      </div>
+    </MainLayoutsLight>
   );
 };
 

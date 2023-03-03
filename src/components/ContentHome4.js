@@ -56,7 +56,10 @@ const ContentHome4 = () => {
           <p className="title-price4">Team feedback history</p>
         </div>
         <div className="wrapper-price-content-title">
-          <Button variant="dark-button" text="Get Started" />
+          <a href="https://reactjs.org/docs/getting-started.html">
+            {' '}
+            <Button variant="dark-button" text="Get Started" />
+          </a>
         </div>
       </div>
       <div className="wrapper-price">
@@ -84,7 +87,9 @@ const ContentHome4 = () => {
           <p className="title-price4">Team feedback history</p>
         </div>
         <div className="wrapper-price-content-title">
-          <Button variant="dark-button" text="Get Started" />
+          <a href="https://reactjs.org/docs/getting-started.html">
+            <Button variant="dark-button" text="Get Started" />
+          </a>
         </div>
       </div>
     </div>

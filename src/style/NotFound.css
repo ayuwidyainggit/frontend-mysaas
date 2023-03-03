@@ -1,0 +1,13 @@
+.container-not-found {
+  margin-top: 6rem;
+}
+
+.text-not-found {
+  margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 576px) {
+  .container-not-found {
+    margin-top: 10rem;
+  }
+}

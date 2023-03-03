@@ -23,7 +23,6 @@ const Home = () => {
       <ContentHome4 />
       <ContentHome5 />
       <ContentHome6 />
-      <Coba />
     </MainLayouts>
   );
 };

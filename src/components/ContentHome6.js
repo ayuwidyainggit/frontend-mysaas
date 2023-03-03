@@ -39,7 +39,7 @@ const ContentHome6 = () => {
               <p className="text-content-article">It is a long established fact that a reader will be distracted by the readable content of a page from when looking at it layout. The point of using Lorem Ipsum</p>
             </div>
             <div className="content-article-text">
-              <a href="" className="link-text">
+              <a href="https://reactjs.org/tutorial/tutorial.html" className="link-text">
                 Read More
               </a>
             </div>
@@ -66,7 +66,7 @@ const ContentHome6 = () => {
               <p className="text-content-article">It is a long established fact that a reader will be distracted by the readable content of a page from when looking at it layout. The point of using Lorem Ipsum</p>
             </div>
             <div className="content-article-text">
-              <a href="" className="link-text">
+              <a href="https://reactjs.org/tutorial/tutorial.html" className="link-text">
                 Read More
               </a>
             </div>

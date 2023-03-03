@@ -26,7 +26,7 @@ const ContentHome3 = () => {
         </div>
         <div className="wrapper-content-creator">
           <img src={profile} alt="" className="img-profile" />
-          <p className="home3-text3">Ayu Widya Inggit</p>
+          <p className="home3-text3">Susanti</p>
           <div className="home3-text4">Developer</div>
           <div className="stars">
             <img src={stars} alt="" className="img-stars" />

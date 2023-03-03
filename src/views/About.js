@@ -1,11 +1,11 @@
 import React from 'react';
 import About1 from '../components/About1';
-import MainLayouts from '../layouts/MainLayouts';
+import MainLayoutsLight from '../layouts/MainLayoutsLight';
 const About = () => {
   return (
-    <MainLayouts>
+    <MainLayoutsLight>
       <About1 />
-    </MainLayouts>
+    </MainLayoutsLight>
   );
 };
 

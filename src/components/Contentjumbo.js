@@ -3,6 +3,7 @@ import Button from './Button';
 import dashboard from '../assets/homepage/dashboard.png';
 import video from '../assets/homepage/Video.png';
 import '../style/Jumbotron.css';
+import { Link } from 'react-router-dom';
 
 const Contentjumbo = () => {
   return (
@@ -16,8 +17,14 @@ const Contentjumbo = () => {
             <p className="text2">Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.</p>
           </div>
           <div className="footer">
-            <Button text="Get Started" variant="info" />
-            <Button text="Watch Video" variant="info2" className="btn-video" />
+            <a href="https://reactjs.org/docs/getting-started.html">
+              <Button text="Get Started" variant="info" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=Ll_71n60vAM">
+              {' '}
+              <Button text="Watch Video" variant="info2" className="btn-video" />
+            </a>
+
             <img src={video} alt="" className="video" />
           </div>
         </div>

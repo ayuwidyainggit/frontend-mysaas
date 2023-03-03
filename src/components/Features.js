@@ -17,19 +17,19 @@ const Features = () => {
           <img src={icon1} alt="" className="img-content" />
           <p>Secured Platform</p>
           <p>Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.</p>
-          <a href="">Learn More</a>
+          <a href="https://reactjs.org/tutorial/tutorial.html">Learn More</a>
         </div>
         <div className="content-footer-feature">
           <img src={icon2} alt="" className="img-content" />
           <p>Secured Platform</p>
           <p>Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.</p>
-          <a href="">Learn More</a>
+          <a href="https://reactjs.org/tutorial/tutorial.html">Learn More</a>
         </div>
         <div className="content-footer-feature">
           <img src={icon3} alt="" className="img-content" />
           <p>Secured Platform</p>
           <p>Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.</p>
-          <a href="">Learn More</a>
+          <a href="https://reactjs.org/tutorial/tutorial.html">Learn More</a>
         </div>
       </div>
     </div>

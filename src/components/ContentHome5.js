@@ -17,7 +17,9 @@ const ContentHome5 = () => {
             </div>
             <div className="wrapper-content-left-bottom">
               <input type="text" className="input-home5" placeholder="your mail here" />
-              <Button text="Get Started" variant="purple-button2" />
+              <a href="https://reactjs.org/docs/getting-started.html">
+                <Button text="Get Started" variant="purple-button2" />
+              </a>
             </div>
           </div>
         </div>

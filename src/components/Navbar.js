@@ -36,21 +36,22 @@ const Navbar = () => {
             </Link>
           </li>
           <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/about">
-              Blog
-            </Link>
-          </li>{' '}
-          <li style={{ listStyle: 'none' }}>
-            <Link className="text" to="/about">
-              Cart
+            <Link className="text" to="/contactUs">
+              Contact Us
             </Link>
           </li>
-          <a href="" className="text sign">
-            Sign In
-          </a>
+
+          <Link to="/ggg" style={{ listStyle: 'none' }}>
+            {/* {' '}
+            <a href="" className="text sign" style={{ listStyle: 'none' }}>
+              Sign In
+            </a> */}
+          </Link>
         </ul>
         <ul className="myUl3">
-          <Button text="Sign In" variant="warning" />
+          <Link to="/ggg">
+            <Button text="Sign In" variant="warning" />
+          </Link>
         </ul>
 
         <div className="menu-toggle">

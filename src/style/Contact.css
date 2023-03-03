@@ -1,0 +1,142 @@
+.container-contact {
+  background-image: url('../assets/contact/Banner.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  margin-top: -7%;
+}
+
+.wrapper-contact {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  padding-top: 10%;
+}
+
+.wrapper-card {
+  left: 5%;
+  width: 90%;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+.wrapper-card-contact {
+  width: 45%;
+  text-align: left;
+}
+
+.card {
+  border-color: white;
+  border-style: solid;
+  background-color: white;
+  box-shadow: 0px 24px 33px rgba(181, 181, 181, 0.25);
+  border-radius: 20px;
+  width: 85%;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-mail {
+  width: 50px;
+}
+
+.card-img {
+  position: relative;
+  margin-right: -2rem;
+}
+
+.card-text {
+  position: relative;
+  margin-right: 3rem;
+}
+
+.wrapper-contact-us {
+  border-color: white;
+  background-color: white;
+  border-style: solid;
+  position: relative;
+  border-radius: 48px;
+  box-shadow: 0px 17px 44px rgba(179, 179, 179, 0.25);
+  width: 80%;
+  left: 10%;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.input-contact-us {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  left: 5%;
+}
+
+.wrapper-input-contact {
+  width: 50%;
+  text-align: left;
+}
+
+.input-text {
+  width: 400px;
+  height: 60px;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+  padding-left: 2rem;
+}
+
+.button-mesage {
+  padding-top: 7rem;
+}
+
+@media screen and (max-width: 576px) {
+  .container-contact {
+    background-image: url('../assets/contact/Banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    margin-top: -10rem;
+    padding-bottom: -50%;
+  }
+
+  .wrapper-card {
+    left: 5%;
+    width: 90%;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+  }
+  .wrapper-contact {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    padding-top: 50%;
+  }
+
+  .wrapper-card-contact {
+    width: 100%;
+    text-align: left;
+  }
+  .card {
+    background-color: white;
+    box-shadow: 0px 24px 33px rgba(181, 181, 181, 0.25);
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .wrapper-input-contact {
+    width: 100%;
+    text-align: left;
+  }
+  .input-contact-us {
+    flex-direction: column;
+  }
+}

@@ -44,6 +44,26 @@
   line-height: 40px;
   color: white;
 }
+.text-paragraph7 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 40px;
+  color: black;
+}
+
+.text-paragraph8 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 40px;
+  color: #797979;
+}
+
+.text-paragraph9 {
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 40px;
+  color: #5236ff;
+}
 
 @media screen and (max-width: 576px) {
   .text-paragraph1 {

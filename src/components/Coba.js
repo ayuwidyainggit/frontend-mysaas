@@ -13,7 +13,12 @@ const Coba = () => {
         <Paragraph text="Paragraph 5" variant="paragraph5" />
         <Paragraph text="Paragraph 6" variant="paragraph6" />
       </div>
+      <Paragraph text="Paragraph 7" variant="paragraph7" />
+      <Paragraph text="Paragraph 8" variant="paragraph8" />
+      <Paragraph text="Paragraph 9" variant="paragraph9" />
+      <Paragraph text="Paragraph 10" variant="paragraph10" />
 
+      {/* button */}
       <Button text="warning" variant="warning" />
       <Button text="info" variant="info" />
       <Button text="info2" variant="info2" />
